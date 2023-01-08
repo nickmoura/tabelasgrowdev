@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabela - Atividade 2 Growdev</title>
+	<style>		table{
+		border: 1px solid blue;
+		width: 80%;
+		margin: 10px 10px 15px 15px;
+		}
+		td{
+			border: 1px dotted green;
+			padding: 8px;
+		}
+		td:hover{
+			background-color: pink;
+		}</style>
+</head>
+<body>
+	<table border="1" align="center" width="700" height="100">
+		<tr>
+			<td colspan="2" align="center">TOPO</td>
+		</tr>
+		<tr>
+			<td align="center" height="100">MENU</td>
+			<td align="center" height="100">CONTEÚDO</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">RODAPÉ</td>
+		</tr>
+	</table>
+</body>
+</html>
